@@ -1,7 +1,7 @@
 def main():
-  squares = [{i: i**0.5 } for i in range(1, 1001) ]
+  palindrome = lambda string : string == string[::-1]
 
-  print(squares)
+  print(palindrome("Holi"))
 
 
   
